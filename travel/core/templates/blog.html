@@ -1,0 +1,24 @@
+{% block content %}
+<section id="blog">
+    <div class="container mt-5">
+      <div class="title text-center"><h1>Blogs</h1></div>
+        <div class="vessel row justify-content-center">
+          <div class="box bg-light shadow col-md">
+            <div class="image-container">{% load static %}<img src="{% static 'images/blog-1.jpg' %}" class="img-fluid rounded" alt=""></div>
+            <h6 class="one-compliment text-dark">Life is a beautiful journey not a destination</h6>
+            <a href="#" class="btn btn-primary mt-3 w-100">Book Now</a>
+        </div>
+          <div class="box bg-light shadow col-md">
+            <div class="image-container">{% load static %}<img src="{% static 'images/blog-2.jpg' %}" class="img-fluid rounded" alt=""></div>
+            <h6 class="one-compliment text-dark">Take only memories, leave only footprints</h6>
+            <a href="#" class="btn btn-primary mt-3 w-100">Book Now</a>
+        </div>
+          <div class="box bg-light shadow col-md">
+            <div class="image-container">{% load static %}<img src="{% static 'images/blog-4.jpg' %}" class="img-fluid rounded" alt=""></div>
+            <h6 class="one-compliment text-dark">Journeys are best measured in new friends</h6>
+            <a href="#" class="btn btn-primary mt-3 w-100">Book Now</a>
+        </div>
+        </div>
+    </div>
+  </section>
+{% endblock %}

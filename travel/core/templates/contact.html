@@ -1,0 +1,26 @@
+{% block content %}
+<section id="contact">
+    <div class="container mt-5">
+      <div class="title text-center"><h1>Contact</h1></div>
+      <form action="" class="shadow p-3">
+        <div class="row mb-4">
+          <div class="inputBox col-md">
+            <input type="text" placeholder="Name" name="name" required>
+        </div>
+        <div class="inputBox col-md">
+          <input type="number" placeholder="Phone number" name="number" required>
+        </div>
+        </div>
+        <div class="inputBox mb-4">
+            <input type="email" placeholder="Email" name="email" required>
+        </div>
+        <div class="inputBox">
+            <textarea class="mb-2" placeholder="Enter message" required name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="centralize">
+          <input type="submit" class="btn btn-light w-50 m-auto" value="send message">
+        </div>
+    </form>
+    </div>
+  </section>
+{% endblock %}

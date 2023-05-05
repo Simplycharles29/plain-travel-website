@@ -1,0 +1,30 @@
+{% extends 'core.html' %}
+
+{% block content %}
+<!-- navbar topper -->
+    {% include 'nav-top.html' %}
+   <!-- navbar -->
+   <header>
+    {% include 'navbar.html' %}
+        <!-- showcase -->
+    {% include 'showcase.html' %}
+    </header>
+<!-- about us -->
+    {% include 'about.html' %}
+    <!-- services -->
+    {% include 'services.html' %}
+    <!-- counter -->
+    {% include 'counter.html' %}
+    <!-- tour -->
+    {% include 'tours.html' %}
+    <!-- blogs -->
+    {% include 'blog.html' %}
+    <!-- contact -->
+    {% include 'contact.html' %}
+    <!-- footer -->
+    {% include 'footer.html' %}
+
+    <a href="#top" class="btn btn-primary go-top" data-go-top>
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+{% endblock %}

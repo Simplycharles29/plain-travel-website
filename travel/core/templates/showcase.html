@@ -1,0 +1,33 @@
+{% block content %}
+<div class="container">
+    <div class="hero text-light d-flex justify-content-center mt-5">
+      <h1>Discover your right places with us</h1>
+    </div>
+    <div class="btn w-100">
+      <a class="btn btn-primary" style="padding: 7px 45px;" href="#">Book Now</a>
+    </div>
+  </div>
+  <div class="container">
+    <form>
+      <div class="form-row d-inline-flex col-lg-5 w-100 p-5 bg-light shadow justify-content-center align-items-center ">
+        <div class="col">
+          <label for="">Enter destination: </label>
+          <input type="text" class="form-control" placeholder="Enter Destination">
+        </div>
+        <div class="col">
+          <label for="">Pax number: </label>
+          <input type="text" class="form-control" placeholder="No.of people">
+        </div>
+        <div class="col">
+          <label for="">Checkin date: </label>
+          <input type="date" class="form-control" placeholder="MM/DD/YY">
+        </div>
+        <div class="col">
+          <label for="">Checkout date: </label>
+          <input type="date" class="form-control" placeholder="MM/DD/YY">
+        </div>
+        <button type="button" class="btn btn-primary mt-4">Submit</button>
+      </div>
+    </form>
+  </div>
+{% endblock %}
